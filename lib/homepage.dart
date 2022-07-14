@@ -6,18 +6,21 @@ class Homepage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Homepage"),
+        title:  Text("Homepage"),
       ),
       body: ListView(
-        children: const [
+        children:  [
           Padding(
             padding: EdgeInsets.all(15),
             child: Center(child: Text("LIST OF FOOD ITEMS")),
           ),
-          Card(
-            child: ListTile(
-              leading: Icon(Icons.apple),
-              title: Text("Apple"),
+          GestureDetector(
+            onTap:(){} ,
+            child: Card(
+              child: ListTile(
+                leading: Icon(Icons.apple),
+                title: Text("Apple"),
+              ),
             ),
           ),
           Card(
