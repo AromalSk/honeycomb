@@ -1,5 +1,6 @@
 
 import 'package:flutter/material.dart';
+import 'package:honeycomb/LoginPage.dart';
 import 'package:honeycomb/homepage.dart';
 import 'package:splash_screen_view/SplashScreenView.dart';
 
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
     Widget example1 = SplashScreenView(
       navigateRoute: Homepage(),
       duration: 5000,
-      imageSize: 130,
+      imageSize: 200,
       imageSrc: "motherEarth.png",
       text: "Mother Earth",
       textType: TextType.ColorizeAnimationText,
