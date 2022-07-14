@@ -1,5 +1,6 @@
 
 import 'package:flutter/material.dart';
+import 'package:honeycomb/ContactBook.dart';
 import 'package:honeycomb/ListView2.dart';
 import 'package:honeycomb/LoginPage.dart';
 import 'package:honeycomb/homepage.dart';
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     Widget example1 = SplashScreenView(
-      navigateRoute: Homepage(),
+      navigateRoute: ContactBook(),
       duration: 5000,
       imageSize: 200,
       imageSrc: "motherEarth.png",
